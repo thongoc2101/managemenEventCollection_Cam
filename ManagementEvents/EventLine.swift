@@ -23,6 +23,8 @@ class EventLine
         events = includeEvents
     }
     
+    
+    
     class func eventLines() -> [EventLine]
     {
         return [self.Thu2(), self.Thu3(), self.Thu4(), self.Thu5(), self.Thu6(), self.Thu7(), self.CN()]
